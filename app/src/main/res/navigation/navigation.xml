@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentUtama">
+
+    <fragment
+        android:id="@+id/fragmentUtama"
+        android:name="org.d3if4075.Persegiku.FragmentUtama"
+        android:label="FragmentUtama"
+        tools:layout="@layout/fragment_utama"
+
+        >
+        <action
+            android:id="@+id/action_fragmentUtama_to_historiFragment"
+            app:destination="@id/historiFragment" />
+        <action
+            android:id="@+id/action_fragmentUtama_to_listBangunDatarFragment"
+            app:destination="@id/listBangunDatarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historiFragment"
+        android:name="org.d3if4075.Persegiku.histori.HistoriFragment"
+        android:label="HistoriFragment"
+        tools:layout="@layout/fragment_histori"/>
+    <fragment
+        android:id="@+id/listBangunDatarFragment"
+        android:name="org.d3if4075.Persegiku.ListBangunDatarFragment"
+        android:label="ListBangunDatarFragment" />
+</navigation>

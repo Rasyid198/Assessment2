@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pengitung Keliling dan Luas Bangun Datar Persegi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="belum_ada_data">Belum ada data</string>
+    <string name="histori">Histori</string>
+    <string name="keliling_x">Keliling: %1$.1f</string>
+    <string name="luas_x">Luas: %1$.1f</string>
+    <string name="konfirmasi_hapus">Anda yakin ingin menghapus data ini?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+    <string name="hapus_histori">Hapus Histori</string>
+    <string name="koneksi_error">Koneksi Error!!</string>
+    <string name="rumus_luas">Luas: %1$s</string>
+</resources>
